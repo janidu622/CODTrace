@@ -7,3 +7,12 @@ Independent full-stack project
 - Benchmarked order-ID matching alone against a method that also checks dates and amounts when IDs are missing. Used a separate set of sample records with known answers to count correct matches, wrong matches, and cases needing review.
 
 **Stack** · TypeScript, Next.js, NestJS, PostgreSQL, Docker, GitHub Actions, Playwright
+
+
+## Prototype status
+
+The current Next.js and TypeScript frontend demonstrates the dashboard, search, status filters and order details using synthetic data. CSV import, payment matching, duplicate prevention, manual review decisions, the backend and the benchmark are still to be built. The project description above describes the intended completed system.
+
+## Run locally
+
+Install Node.js, run `npm install` and `npm run dev`, then visit http://localhost:3000.
